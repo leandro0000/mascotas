@@ -1,0 +1,65 @@
+.img_carrito {
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+
+.img img {
+width: 150px;
+height: 150px;
+display: block;
+margin-top: 10px;
+border: 1px solid grey;
+cursor: pointer;
+object-fit: cover;
+
+
+
+}
+
+.img img:hover{
+background-color: blue;
+opacity: .5;
+
+}
+.img_pro {
+    border: 1px solid grey;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+    margin-left: 40px;
+    height: auto
+
+
+}
+
+.img_pro img {
+    width: 650px;
+}
+
+.tex {
+   margin-left: 40px;
+
+}
+
+.tex h4 {
+    font-size: 30px;
+}
+
+.tex h2 {
+    font-size: 40px;
+}
+
+.tex a{
+
+    margin-top: 30px;
+}
+
+.img_lista li {
+    list-style: none;
+}
+
+.img_lista li ul li {
+    display: none;
+}

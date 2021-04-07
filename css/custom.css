@@ -1,0 +1,569 @@
+.responsive {
+    width: 80%;
+    max-width: 1000px;
+}
+
+.inicio_pro {
+    background-color: #fff159;
+    height: auto;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+}
+
+.blo_pro li {
+    margin: 20px;
+    display: inline-block;
+}
+
+.blo_pro a {
+    color: black;
+}
+
+.blo_pro1 li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.blo_pro1 a {
+    color: black;
+}
+
+.inicio_2 {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inicio_2 li {
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+}
+
+.menu1 ul a {
+    color: black;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.menu1 a:hover {
+    color: blue;
+}
+
+.blo-pro3 {
+    margin: 0px 40px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.slider li a {
+    list-style: none;
+    text-decoration: none;
+    padding: 7px 15px;
+    display: block;
+}
+
+.slider>li {
+    float: left;
+    list-style: none;
+}
+
+.slider li ul li {
+    background-color: rgba(0, 0, 0, 0.83);
+    width: 179px;
+    transform: translate(-49px, -2px);
+    list-style: none;
+    color: #f0f0e9;
+    z-index: 999;
+}
+
+.slider li ul a {
+    color: #f0f0e9;
+}
+
+.slider li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.slider li:hover ul {
+    display: block;
+}
+
+.slider li {
+    font-size: 17px;
+    font-family: monospace;
+    padding-left: 26px;
+}
+
+.slider a {
+    color: brown;
+}
+
+.slider a:hover {
+    color: blue;
+}
+
+.buscador {
+    margin-top: 15px;
+    color: darkgray;
+    width: 370px;
+}
+
+.lupa {
+    width: 20px;
+    cursor: pointer;
+    position: relative;
+    right: 25px;
+}
+
+.blo-pro4 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.blo_border {
+    background-color: black;
+    width: 100px;
+}
+
+.blo_login {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.83);
+    width: 375px;
+    display: none;
+    position: fixed;
+    z-index: 999;
+    position: absolute;
+    left: 68%;
+    top: 122px;
+}
+
+.login {
+    display: block;
+    margin-top: 31px;
+    width: 250px;
+    margin-left: 19px;
+}
+
+.ti_pro {
+    font-size: 23px;
+    color: crimson;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.ti_pro span {
+    color: black;
+}
+
+.evento {
+    margin-top: 24px;
+    margin-left: 22px;
+    width: 120px;
+}
+
+.from {
+    border: 4px solid #F7F7F0;
+    padding: 17px 10px;
+}
+
+.blo_pro4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.carru {
+    margin-top: 170px;
+}
+
+.categoria h2 {
+    margin: 41px 68px;
+    font-size: 20px;
+    font-family: monospace;
+    color: chocolate;
+}
+
+.categoria h2:before {
+    content: "____________";
+    border: 10px;
+    position: relative;
+    top: -9px;
+}
+
+.categoria h2::after {
+    content: "_________________________";
+    border: 10px;
+    position: relative;
+    top: -9px;
+}
+
+.promo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lista {
+    border: 1px solid slategray;
+    width: 280px;
+    height: 392px;
+    margin: 10px 83px;
+}
+
+.lista li {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.lista a {
+    font-size: 12px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.lista a:hover {
+    color: black;
+}
+
+.lista_pro {
+    display: none;
+}
+
+.cru {
+    width: 12px;
+    margin-left: 106px;
+    cursor: pointer;
+}
+
+.img_banner {
+    object-fit: cover;
+    width: 100%;
+    height: 900px;
+}
+
+.promo_pro img {
+    width: 241px;
+    object-fit: cover;
+    height: 244px;
+    display: table;
+    margin: auto;
+    border: 1.5px solid beige;
+}
+
+.promo_pro {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.83);
+    border-radius: 7px;
+    height: 385px;
+    margin: 9px;
+    width: 241px;
+    transition: 0.5s;
+    padding: 4px 0px;
+}
+
+.promo_pro:hover {
+    transform: scale(1.10);
+}
+
+.promo_pro h2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #FE980F;
+    font-size: 30px;
+}
+
+.promo_pro p {
+    text-align: center;
+    font-family: sans-serif;
+    color: #696763;
+    font-size: 15px;
+}
+
+.promo_pro a {
+    display: table;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.lis h2 {
+    margin: 10px 84px;
+    color: #FE980F;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: -0px 174px;
+}
+
+.lista1 {
+    border: 1px solid slategray;
+    width: 280px;
+    height: 275px;
+    margin: 10px 83px;
+}
+
+.lista1 li {
+    list-style: none;
+    margin: 12px 2px;
+}
+
+.lista1 a {
+    font-size: 12px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.lista1 a:hover {
+    color: black;
+}
+
+.bus {
+    width: 80px;
+}
+
+.bus_pro {
+    transform: translate(33%, -117%);
+}
+
+.bus_pro h2 {
+    font-size: 25px;
+    color: #FE980F;
+    line-height: 57px;
+}
+
+.ofer_img {
+    margin: -45px 61px;
+}
+
+.ofer_img img {
+    width: 350px;
+    transform: translate(0px, -35px);
+}
+
+.categor {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cate_pro {
+    background-color: #40403E;
+    width: 728px;
+    height: 49px;
+    padding: 14px 25px;
+    cursor: pointer;
+    transform: translate(158px, 0px);
+    cursor: pointer;
+}
+
+.cate_pro li {
+    display: inline-block;
+    margin-left: 35px;
+    color: #f0f0e9;
+    font-size: 18px;
+}
+
+.cate_pro li:hover {
+    color: #FE980F;
+    padding: 0px 0px;
+}
+
+.ofertas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.venta {
+    border: 1px solid black;
+    margin: 9px;
+    height: 320px;
+    transform: translate(-6px, 0px);
+    padding: 18px 0px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.83);
+    border-radius: 10px;
+}
+
+.venta:hover {
+    transform: scale(1.10);
+}
+
+.venta img {
+    width: 174px;
+    width: 174px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.venta h2 {
+    font-size: 22px;
+    text-align: center;
+    color: #FE980F;
+}
+
+.venta p {
+    text-align: center;
+}
+
+.venta a {
+    font-size: 13px;
+    display: table;
+    margin: auto;
+}
+
+.bt_pro {
+    display: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.83);
+    border-radius: 10px;
+    width: 180px;
+    margin: 4px;
+    height: 320px;
+    padding: 5px 0px;
+}
+
+.bt_pro img {
+    width: 180px;
+    border: 2px solid beige;
+    object-fit: cover;
+    height: 150px;
+}
+
+.bt_pro h2 {
+    font-size: 22px;
+    text-align: center;
+    color: #FE980F;
+}
+
+.bt_pro p {
+    text-align: center;
+}
+
+.bt_pro a {
+    font-size: 13px;
+    display: table;
+    margin: auto;
+}
+
+.bt_ti {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bt_ti h2 {
+    color: #FE980F;
+    font-size: 20px;
+    transform: translate(144px, 18px);
+}
+
+.slider_promo {
+    margin: 30px 69px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.slider_img img {
+    width: 212px;
+    height: 230px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 1.5px solid beige;
+}
+
+.slider_img img:hover {
+    opacity: 0.5;
+}
+
+.slider_img {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.83);
+    border-radius: 5px;
+    height: 360px;
+    margin: 10px;
+}
+
+.slider_img h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #FE980F;
+}
+
+.slider_img p {
+    text-align: center;
+}
+
+.slider_img a {
+    display: table;
+    margin: auto;
+    color: #f0f0e9;
+}
+
+.slider_final {
+    margin: 20px;
+}
+
+.final_pro {
+    background-color: #f0f0e9;
+    display: flex;
+    flex-direction: row;
+}
+
+.final_pro1 {
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lin {
+    margin: 20px;
+}
+
+.fin_img {
+    width: 100px;
+    height: 78px;
+}
+
+.fim_img {
+    width: 311px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:760px) {
+    .inicio_pro {
+        background-color: #fff159;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 32%;
+    }
+    .blo_pro a {
+        color: black;
+        font-size: 50%;
+    }
+    .blo_pro1 a {
+        color: black;
+        font-size: 50%;
+    }
+}

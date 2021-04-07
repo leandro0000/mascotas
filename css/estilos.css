@@ -1,0 +1,57 @@
+            .admi {
+                background-color: #fff159;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .admi h2 {
+                display: table;
+                margin: auto;
+                height: 50px;
+                font-size: 25px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            .admi a {
+                display: table;
+                margin: auto;
+            }
+            
+            .pro {
+                margin: 50px;
+                display: flex;
+                flex-direction: row;
+            }
+            
+            .productos input {
+                display: block;
+                margin-top: 20px;
+                width: 300px;
+            }
+            
+            .table_pro {
+                margin: 20px;
+            }
+            
+            .buscar {
+                display: table;
+                margin: auto;
+            }
+            
+            .buscar {}
+            
+            .productos {
+                box-shadow: 0px 0px 3px rgb(0, 0, 6);
+                width: 366px;
+                background-color: cornflowerblue;
+                height: 281px;
+                padding: 10px 17px;
+                display: table;
+                margin: auto;
+            }
+            
+            .inpu {
+                width: 400px;
+                margin-top: 20px;
+            }
